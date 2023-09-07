@@ -1,0 +1,77 @@
+@charset "UTF-8";
+
+.ContactForm{
+wìdth: 100%;
+height: 100vh;
+background-image: linear-gradient(rgba(0, 0, 0, 0.7), #3551b5), url(assets/img/bg-contact.jpg);
+background-position: center;
+background-size: cover;
+display: flex;
+align-items: center;
+justify-content: center;
+}
+
+form{
+width: 90%;
+max-width: 600px;
+}
+
+
+.input-group{
+margin-bottom: 30px;
+position: relative;
+}
+input, textarea{
+width: 100%;
+padding: 10px;
+outline: 0;
+border: 1px solid #fff;
+color: #fff;
+background: transparent;
+font-size: 15px;
+}
+
+label{
+height: 100%;
+position: absolute;
+left: 0;
+top: 0;
+padding: 10px;
+color: #fff;
+Cursor: text;
+transition: 0.1s;
+}
+
+
+button{
+padding: 10px 0;
+color: #fff;
+outline: none;
+background: transparent;
+border: 1px solid #fff;
+width: 100%;
+Cursor: pointer;
+}
+
+/*! Yo move label out */
+input:focus~label,
+input:valid~label, 
+textarea:focus~label,
+textarea:valid~label {
+  top : -35px;
+  font-size : 14px ; 
+} 
+.row { 
+display : flex;
+align-items: center;
+justify-content: space-between ; 
+} 
+.Contactrow{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.Contactrow .input-group{
+  flex-basis: 48%;
+}
