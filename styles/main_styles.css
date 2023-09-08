@@ -612,6 +612,7 @@ section
 	font-weight: 500;
 	color: #7a798c;
 	margin-top: 12px;
+	word-wrap: break-word;
 	white-space: pre-wrap;
 }
 
