@@ -584,7 +584,7 @@ section
 }
 .loader_content
 {
-	position: absolute;
+	position: relative;
 	left: 50%;
 	bottom: 0;
 	-webkit-transform: translateX(-50%);
