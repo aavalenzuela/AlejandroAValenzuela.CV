@@ -539,8 +539,8 @@ section
 }
 .main_content_scroll
 {
-	margin-top: 62px;
-	max-height: calc(100% - 183px - 93px - 62px);
+	margin-top: 20px;
+	max-height: calc(100% - 183px - 93px - 20px);
 }
 .mCS-minimal.mCSB_scrollTools .mCSB_draggerRail, .mCS-minimal-dark.mCSB_scrollTools .mCSB_draggerRail
 {
